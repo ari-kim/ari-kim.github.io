@@ -1,0 +1,24 @@
+body {
+	background-color: #cfe7eb;
+}
+
+#header {
+	color: white;
+	padding: 200px 60px 20px 60px;
+	font-family: Arial;
+}
+
+h1 {
+	margin: 0;
+}
+
+#container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content {
+	padding: 20px 60px 60px 60px;
+	font-family: Arial;
+}
