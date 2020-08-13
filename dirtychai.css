@@ -1,5 +1,8 @@
 body {
 	background-color: #cfe7eb;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #header {
