@@ -3,8 +3,7 @@
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 background: #cfe7eb;
-	 color: #FFFFFF;
+	 background: #FFFFFF;
 }
 
 #container {
@@ -20,6 +19,5 @@
 }
 
 #header {
-	color: #FFFFFF;
 	padding: 10px;
 }
