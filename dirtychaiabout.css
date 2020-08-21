@@ -1,5 +1,5 @@
  body {
-	 font-family: "Arial";
+	 font-family: andale mono, monospace;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
@@ -14,7 +14,7 @@
 
 #content {
 	color: #222222;
-	font-family: Arial;
+	font-family: andale mono, monospace;
 
 }
 
