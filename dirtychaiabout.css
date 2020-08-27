@@ -1,5 +1,4 @@
  body {
-	 font-family: Arial;
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
@@ -7,7 +6,7 @@
 }
 
 #container {
-	width: 600px;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -15,12 +14,10 @@
 #content {
 	color: #222222;
 	font-family: Arial;
+	font-size: 60px;
 
 }
 
-#header {
-	padding: 10px;
-}
 
 a {
 	color: black;
@@ -44,4 +41,8 @@ a:hover {
 a:active {
   text-decoration: none;
   background-color: yellow;
+}
+
+.pinkText {
+	color: #FF1493;
 }
