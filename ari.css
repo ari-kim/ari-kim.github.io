@@ -1,0 +1,71 @@
+#container {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+.wrapper { 
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+
+} 
+
+.box1 { 
+  background: pink;
+}
+
+.box2 { 
+  background: pink;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial; ;
+}
+
+#intro {
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: Arial;
+}
+
+.box3 {
+	background: pink;
+}
+
+.box4 {
+	background: pink;
+}
+
+
+.box5 {
+	background: pink;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+	color: black;
+}
+
+a:link {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+a:visited {
+  text-decoration: none;
+  background-color: yellow;
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: cyan;
+}
+
+a:active {
+  text-decoration: none;
+  background-color: yellow;
+}
