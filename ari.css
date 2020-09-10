@@ -46,6 +46,14 @@
 	align-items: center;
 }
 
+.footer {
+	justify-content: center;
+	align-items: center;
+	font-family: Arial;
+	margin: auto;
+	
+}
+
 a {
 	color: black;
 }
