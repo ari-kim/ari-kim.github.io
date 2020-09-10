@@ -18,7 +18,7 @@
 }
 
 .box2 { 
-  background: pink;
+  background: #FFEDED;
   justify-content: center;
   align-items: center;
   font-family: Arial; ;
@@ -32,7 +32,7 @@
 }
 
 .box3 {
-	background: pink;
+	background: #EAF3FA;
 }
 
 .box4 {
@@ -41,7 +41,7 @@
 
 
 .box5 {
-	background: pink;
+	background: #F0F6F3;
 	justify-content: center;
 	align-items: center;
 }
