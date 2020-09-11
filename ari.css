@@ -60,20 +60,20 @@ a {
 
 a:link {
   text-decoration: none;
-  background-color: yellow;
+  background-color: #FFEDED;
 }
 
 a:visited {
   text-decoration: none;
-  background-color: yellow;
+  background-color: #FFEDED;
 }
 
 a:hover {
   text-decoration: none;
-  background-color: cyan;
+  background-color: #F0F6F3;
 }
 
 a:active {
   text-decoration: none;
-  background-color: yellow;
+  background-color: #FFEDED;
 }
