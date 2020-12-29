@@ -1,32 +1,37 @@
+body {
+	 padding: 20px;
+}
+
 #container {
-	width: 600px;
 	margin-left: auto;
 	margin-right: auto;
-	justify-content: center;
-	padding: 50px;
-	
+	text-align: left /*!text_left*/;
+}
+
+#content {
+	color: black;
+	font-family: Arial;
+	font-size: 40px;
+
 }
 
 
-.wrapper { 
+
+.wrapper1 {
   display: grid;
-  column-gap: 10px;
-  row-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-column-gap: 10px;  
+  grid-row-gap: 10px;
+  justify-content: space-around;
+  align-content: space-around;
 
-} 
-
-.box2 { 
-  justify-content: center;
-  align-items: center;
-  font-family: monospace;
-	text-align: center;
 }
 
-#intro {
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+@media (min-width: 900px) {
+  .wrapper1 { grid-template-columns: repeat(4, 1fr); }
 }
+
 
 a {
 	color: black;
@@ -34,20 +39,24 @@ a {
 
 a:link {
   text-decoration: none;
-  background-color: #FFEDED;
+  background-color: cyan;
 }
 
 a:visited {
   text-decoration: none;
-  background-color: #FFEDED;
+  background-color: cyan;
 }
 
 a:hover {
   text-decoration: none;
-  background-color: #F0F6F3;
+  background-color: yellow;
 }
 
 a:active {
   text-decoration: none;
-  background-color: #FFEDED;
+  background-color: cyan;
+}
+
+.pinkText {
+	color: #FF1493;
 }
